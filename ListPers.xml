@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  
+ 
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+
+                <title></title>
+
+            </titleStmt>
+
+            <publicationStmt>
+                <p></p>
+
+            </publicationStmt>
+
+            <sourceDesc> <!-- Fornisce la descrizione della fonte primaria -->
+                 <listPerson>
+                        <head>Lista persone</head>
+
+                        <!--Primo Levi-->
+                        <person xml:id="PL">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Primo_Levi"/>
+                                    <forename>Primo</forename>
+                                    <surname>Levi</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1919-07-31" cert="high">31 luglio 1919</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Torino</settlement>
+                                        <country key="IT">Italy</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1987-04-11" cert="high">11 aprile 1987</date>
+                                        <placeName>
+                                            <settlement type="town">Torino</settlement>
+                                            <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Mahmud Ahmadinejad-->
+                        <person xml:id="MA">      
+                                <persName role="president">
+                                    <ref target="https://it.wikipedia.org/wiki/Mahmud_Ahmadinejad"/>
+                                    <forename>Mahmud</forename>
+                                    <surname>Ahmadinejad</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1956-10-28" cert="high">28 ottobre 1956</date>
+                                </birth>
+                        </person>
+
+                        <!--Adolf Hitler-->
+                        <person xml:id="AH">   
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Adolf_Hitler"/>
+                                <forename>Adolf</forename>
+                                <surname>Hitler</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1889-04-20" cert="high">20 aprile 1889</date>
+                                <placeName>
+                                    <settlement type="municipality">Braunau am Inn</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1945-04-30" cert="high">30 aprile 1945</date>
+                                <placeName>
+                                    <settlement type="municipality">Berlino</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </death>
+                        </person>
+
+                        <!--Ronald Reagan-->
+                        <person xml:id="RR">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Ronald_Reagan"/>
+                                    <forename>Ronald</forename>
+                                    <surname>Reagan</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1911-02-06" cert="high">6 febbraio 1911</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Tampico</settlement>
+                                        <country key="MX">Messico</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2004-06-05" cert="high">5 giugno 2004</date>
+                                        <placeName>
+                                            <settlement type="town">Los Angeles</settlement>
+                                            <country key="CA">California</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Adolf Eichmann-->
+                        <person xml:id="AE">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Adolf_Eichmann"/>
+                                    <forename>Adolf</forename>
+                                    <surname>Eichman</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1906-03-19" cert="high">19 marzo 1906</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Solingen</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1962-05-31" cert="high">31 maggio 1962</date>
+                                        <placeName>
+                                            <settlement type="town">Ramla</settlement>
+                                            <country key="IL">Israele</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+
+                        <!--Rainer Fassbinder-->
+                        <person xml:id="RF">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Rainer_Werner_Fassbinder"/>
+                                    <forename>Rainer</forename>
+                                    <forename>Werner</forename>
+                                    <surname>Fassbinder</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1945-05-31" cert="high">31 maggio 1945</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="municipality">Bad Wörishofen</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1982-06-10" cert="high">10 giugno 1982</date>
+                                        <placeName>
+                                            <settlement type="town">Monaco di Baviera</settlement>
+                                            <country key="DE">Germania</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Piero Terracina-->
+                        <person xml:id="PT">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Piero_Terracina"/>
+                                    <forename>Piero</forename>
+                                    <surname>Terracina</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1928-11-12" cert="high">12 novembre 1928</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2019-12-08" cert="high">8 dicembre 2019</date>
+                                        <placeName>
+                                        <settlement type="town">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Susan Strasberg-->
+                        <person xml:id="SS">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Susan_Strasberg"/>
+                                    <forename>Susan</forename>
+                                    <surname>Strasberg</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1938-05-22" cert="high">22 maggio 1938</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">New York</settlement>
+                                        <country key="US">Stati Uniti d'America</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1999-01-21" cert="high">21 gennaio 1999</date>
+                                        <placeName>
+                                            <settlement type="town">New York</settlement>
+                                            <country key="US">Stati Uniti d'America</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Gillo Pontecorvo-->
+                        <person xml:id="GP">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Gillo_Pontecorvo"/>
+                                    <forename>Gillo</forename>
+                                    <surname>Pontecorvo</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1919-11-19" cert="high">19 novembre 1919</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Pisa</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2006-10-12" cert="high">12 ottobre 2006</date>
+                                        <placeName>
+                                            <settlement type="town">Roma</settlement>
+                                            <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Josef Mengele-->
+                        <person xml:id="JM">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Josef_Mengele"/>
+                                    <forename>Josef</forename>
+                                    <surname>Mengele</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1911-03-16" cert="high">16 marzo 1911</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Günzburg</settlement>
+                                        <country key="DE">Germania</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1979-02-07" cert="high">7 febbraio 1979</date>
+                                        <placeName>
+                                            <settlement type="town">Bertioga</settlement>
+                                            <country key="BR">Brasile</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Oscar Schindler-->
+                        <person xml:id="OS">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Oskar_Schindler"/>
+                                    <forename>Oscar</forename>
+                                    <surname>Schindler</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1908-04-28" cert="high">28 aprile 1908</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Zwittau</settlement>
+                                        <country key="CZ">Repubblica Ceca</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1974-10-09" cert="high">9 ottobre 1974</date>
+                                        <placeName>
+                                            <settlement type="town">Hildeshem</settlement>
+                                            <country key="DE">Germania</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Bruno Bettelheim-->
+                        <person xml:id="BB">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Bruno_Bettelheim"/>
+                                    <forename>Bruno</forename>
+                                    <surname>Bettelheim</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1903-08-28" cert="high">28 agosto 1903</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Vienna</settlement>
+                                        <country key="AT">Austria</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="1990-03-13" cert="high">13 marzo 1990</date>
+                                        <placeName>
+                                            <settlement type="town">Silver Spring</settlement>
+                                            <country key="US">Stati Uniti d'America</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Enrico Modigliani-->
+                        <person xml:id="EM">     
+                                <persName>
+                                    <ref target=""/>
+                                    <forename>Enrico</forename>
+                                    <surname>Modigliani</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1937">1937</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+                        </person>
+
+                        <!--Livia Levi-->
+                        <person xml:id="LL">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Lia_Levi"/>
+                                    <forename>Livia</forename>
+                                    <surname>Levi</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1931-11-09">9 novembre 1931</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Pisa</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+                        </person>
+
+                        <!--Francesco Rosi-->
+                        <person xml:id="FR">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Francesco_Rosi"/>
+                                    <forename>Francesco</forename>
+                                    <surname>Rosi</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1922-11-15" cert="high">15 novembre 1922</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Napoli</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2015-01-10" cert="high">10 gennaio 2015</date>
+                                        <placeName>
+                                            <settlement type="town">Roma</settlement>
+                                            <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Tullia Zevi-->
+                        <person xml:id="TZ">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Tullia_Zevi"/>
+                                    <forename>Tullia</forename>
+                                    <surname>Zevi</surname>
+                                </persName>
+
+                                <sex>F</sex>
+
+                                <birth>
+                                    <date when="1919-02-02" cert="high">2 febbraio 1919</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Milano</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2011-01-22" cert="high">22 gennaio 2011</date>
+                                        <placeName>
+                                        <settlement type="town">Roma</settlement>
+                                        <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Nedo Fiano-->
+                        <person xml:id="NF">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Nedo_Fiano"/>
+                                    <forename>Nedo</forename>
+                                    <surname>Fiano</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1925-04-22" cert="high">22 aprile 1925</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="town">Firenze</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+
+                                <death>
+                                    <date when="2020-12-19" cert="high">19 dicembre 2020</date>
+                                        <placeName>
+                                            <settlement type="town">Milano</settlement>
+                                            <country key="IT">Italia</country>
+                                        </placeName>
+                                </death>
+                        </person>
+
+                        <!--Furio Colombo-->
+                        <person xml:id="FC">     
+                                <persName>
+                                    <ref target="https://it.wikipedia.org/wiki/Furio_Colombo"/>
+                                    <forename>Furio</forename>
+                                    <surname>Colombo</surname>
+                                </persName>
+
+                                <sex>M</sex>
+
+                                <birth>
+                                    <date when="1931-01-01" cert="high">1 gennaio 1931</date>
+                                    <placeName> <!--ref-->
+                                        <settlement type="municipality">Chatillon</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                                </birth>
+                        </person>
+
+                        <!--LIDIA RIDOLFI?-->
+
+                        <!--Hannah Arendt-->
+
+                        <!--Giorgio Perlasca-->
+
+                        
+
+
+
+
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+                    </listPerson>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_vocidallinferno.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+
+<teiHeader>
+
+    <fileDesc>
+
+        <titleStmt>
+
+            <title>
+            </title>
+
+        </titleStmt>
+
+        <publicationStmt>
+
+            <p>
+            </p>
+
+        </publicationStmt>
+
+        <sourceDesc>
+
+                <listBibl>
+
+                    <head>Lista opere letterarie citate</head>
+
+                    <bibl xml:id="Chi_ti_ama_così">
+                        <title>Chi ti ama così</title>
+                        <author ref="#EB">Edith Bruck</author>
+                        <publisher>Marsilio</publisher>
+                        <date when="1994">1994</date>
+                    </bibl>
+
+                    <bibl xml:id="Andremo_in_città">
+                        <title>Andremo in città</title>
+                        <author ref="#EB">Edith Bruck</author>
+                        <publisher>La nave di Teseo</publisher>
+                        <date when="1962">1962</date>
+                    </bibl>
+
+                    <bibl xml:id="Specchi">
+                        <title>Specchi</title>
+                        <author ref="#EB">Edith Bruck</author>
+                        <publisher>Edizioni di storia e letteratura</publisher>
+                        <date when="2005">2005</date>
+                    </bibl>
+
+                    <bibl xml:id="Monologo">
+                        <title>Monologo</title>
+                        <author ref="#EB">Edith Bruck</author>
+                        <publisher>Garzanti</publisher>
+                        <date when="1990">1990</date>
+                    </bibl>
+
+                    <bibl xml:id="Signora_Auschwitz">
+                        <title>Signora Auschwitz</title>
+                        <author ref="#EB">Edith Bruck</author>
+                        <publisher>Marsilio</publisher>
+                        <date when="1999">1999</date>
+                    </bibl>           
+
+                    <bibl xml:id="Sopravvivere">
+                        <title>Sopravvivere</title>
+                        <author ref="#BB">Bruno Bettelheim</author>
+                        <publisher>Feltrinelli</publisher>
+                        <date when="1989">1989</date>
+                    </bibl>          
+
+                </listBibl>
+
+               
+               
+                <list>
+
+                    <head>Lista opere cinematografiche citate</head>
+
+                    <item xml:id="Kapò" n="film">
+                        <bibl>
+                            <title>Kapò</title>
+                            <author>Gillo Pontecorvo</author>
+                            <date when="1960">1960</date> 
+                        </bibl>                       
+                    </item>
+
+                    <item xml:id="La_vita_è_bella" n="film">
+                        <bibl>
+                            <title>La vita è bella</title>
+                            <author>Roberto Benigni</author>
+                            <date when="1997">1997</date> 
+                        </bibl>                       
+                    </item>
+
+                    <item xml:id="Schindlers_list" n="film">
+                        <bibl>
+                            <title>Schindler's list</title>
+                            <author>Steven Spielber</author>
+                            <date when="1993">1993</date> 
+                        </bibl>                       
+                    </item>
+
+                    <item xml:id="La_Tregua" n="film">
+                        <bibl>
+                            <title>La tregua</title>
+                            <author ref="#FR">Francesco Rosi</author>
+                            <date when="1997">1997</date>
+                        </bibl>
+                    </item>
+                    
+                </list>
+
+        </sourceDesc>
+    
+    </fileDesc>
+
+</teiHeader>
+
+<text>
+    <body>
+        <p></p>
+    </body>
+</text>
+
+</TEI>
