@@ -1548,7 +1548,7 @@
                         <sic>queste</sic>
                         <corr>questi</corr> 
                     </choice>
-                    pochi segni di umanità sicuramente che hanno permesso in qualche maniera, almeno a me, perchè io ero con mia sorella tutto il tempo, di dire: <q>"Camminiamo"</q>. Anche perchè durante la marcia della morte che ho fatto da <!--?--> a <placeName ref="#BB">Bergen-Belsen.</placeName> Loro hanno detto, con dieci soldati in tutto e: <q type="spoken" who="#soldiers" toWhom="#deportees">"Chi non può camminare più si ferma, se vi 
+                    pochi segni di umanità sicuramente che hanno permesso in qualche maniera, almeno a me, perchè io ero con mia sorella tutto il tempo, di dire: <q>"Camminiamo"</q>. Anche perchè durante la marcia della morte che ho fatto da <placeName ref="#KR">Kristianstadt</placeName> a <placeName ref="#BB">Bergen-Belsen.</placeName> Loro hanno detto, con dieci soldati in tutto e: <q type="spoken" who="#soldiers" toWhom="#deportees">"Chi non può camminare più si ferma, se vi 
                     fermate vi portiamo nel prossimo ospedale".</q> Le prime quattro sorelle si sono fermate e loro hanno ammazzate. Quindi noi abbiamo capito cosa vuol dire fermarsi. Fermarsi voleva dire morire, nel senso come 
                     <choice>
                         <sic>metafore</sic>
@@ -1640,7 +1640,7 @@
                 </incident>
 
                 <u who="EB" xml:id="e34" synch="#tlp66">Ci davano l'ordine immediatamente e ci davano gli ordini i <emph><foreign xml:lang="DE">Kapò</foreign></emph> ebrei, <del type="repetition">i <foreign xml:lang="DE">Kapò</foreign> ebrei</del> sia chiaro, donne, <vocal><desc>eh,</desc></vocal> non parlo mai di uomini, di ripulire il campo dei cadaveri e portarli nella tenda della
-                    morte. Si chiamava <foreign xml:lang="DE">Todeszelt</foreign> esattamente, che era un angolo del campo.
+                    morte. Si chiamava <foreign xml:lang="DE">Todzelt</foreign> esattamente, che era un angolo del campo.
                 </u>
 
                 <u who="AS" xml:id="a32" synch="#tlp67">Tradotto è <q>"tenda della morte".</q></u>
@@ -2289,7 +2289,7 @@
                         <sic>triste</sic>
                         <corr>tristi</corr>
                     </choice>
-                    che abbia mai visto. Lui e <surname ref="#RB">Benigni</surname> insieme dicevano <!--"Acthung indianer?"-->. 
+                    che abbia mai visto. Lui e <surname ref="#RB">Benigni</surname> insieme dicevano <foreign xml:lang="DE">Acthung In Die Reihe</foreign>.
                 </u>
 
                 <u who="AS" xml:id="a77" synch="#tlp169">Lui la fa sempre questa cosa. Fa sempre questa cosa.</u>
