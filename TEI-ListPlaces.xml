@@ -27,6 +27,11 @@
 
                     <head>Lista dei luoghi</head>
 
+                    <!-- Continenti --> 
+                    <place xml:id="EU">
+                        <placeName>Europa</placeName>
+                    </place>
+
                     <!-- Stati -->
                     <place xml:id="CSR">
                         <country>Cecoslovacchia</country>

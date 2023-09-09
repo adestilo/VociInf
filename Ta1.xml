@@ -138,13 +138,13 @@
                             lontana.
                         </item> 
 
-                        <item synch="#TR3">Per <persName ref="#EB">Edith Bruck</persName> il mondo è peggiorato e anche lo stesso antisemitismo è ricomparso, in tutta <placeName>Europa</placeName>.
+                        <item synch="#TR3">Per <persName ref="#EB">Edith Bruck</persName> il mondo è peggiorato e anche lo stesso antisemitismo è ricomparso, in tutta <placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName>.
                             Denuncia, poi, il fatto che <placeName ref="TEI-ListPlaces.xml#AU">Auschwitz</placeName> non venga visto come qualcosa che riguardi l'intera coscienza cristiana europea, bensì soltanto gli ebrei.
                             Fa poi riferimento a <persName ref="#MA">Ahmadinejad</persName> e alle sue affermazioni razziste contro gli israeliani: secondo <persName ref="#EB">Edith Bruck</persName> le sue non sono le parole di un semplice pazzo, come non lo erano quelle di <persName ref="#AH">Hitler.</persName>
                         </item>
 
                         <item synch="#TR4"><persName ref="#EB">Edith Bruck</persName> rivendica, poi, che tra le varie forme di sofferenza, così come tra i morti, ci sia differenza e sostiene che tale differenza sia quella che permetta di dare il giusto peso alle vittime. 
-                            Infine, denuncia il fatto che fino agli anni Sessanta i sopravvissuti non siano stati ascoltati e che, tutt'ora, l'<placeName>Europa</placeName> non abbia fatto i conti col proprio passato. Come esempio a sostegno di ciò, <persName ref="#EB">Edith Bruck</persName> racconta della madre di un'amica 
+                            Infine, denuncia il fatto che fino agli anni Sessanta i sopravvissuti non siano stati ascoltati e che, tutt'ora, l'<placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName> non abbia fatto i conti col proprio passato. Come esempio a sostegno di ciò, <persName ref="#EB">Edith Bruck</persName> racconta della madre di un'amica 
                             tedesca, la quale tiene ancora sul proprio comodino una foto di <persName ref="#AH">Hitler.</persName> Inoltre, sostiene che dal senso di colpa dei tedeschi sia scaturito il silenzio, nemico del sapere.
                         </item>
 
@@ -960,7 +960,7 @@
                         <sic>assutamente</sic>
                         <corr>assolutamente</corr>
                     </choice>
-                    passato e sta crescendo, no? In tutta <placeName>Europa</placeName>, <del type="repetition">in tutta <placeName>Europa</placeName></del>, 
+                    passato e sta crescendo, no? In tutta <placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName>, <del type="repetition">in tutta <placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName></del>, 
                     tra l'altro. E' una cosa che ti amareggia, <vocal><desc>eh eh</desc></vocal>che tu devi ancora vivere e sopravvivere. A volte invidio <persName ref="TEI-ListPers.xml#PL">Primo Levi</persName> devo dire, 
                     <vocal><desc>eh</desc></vocal>, anche se io sono stata stravolta 
                     <choice>
@@ -1015,9 +1015,9 @@
                 <u who="#AS" xml:id="a4" synch="#tlp7">C'è lo spazio, sì.</u>
 
                 <u who="EB" xml:id="e4" synch="#tlp8">Per niente. E c'è lo spazio. E' questo che è una <del type="repetition">una</del> cosa <del type="truncation">abbast</del>.
-                    E' cominciato <persName ref="TEI-ListPers.xml#AH">Hitler</persName> anche così, voglio dire, non è <anchor xml:id="ebruck-01" synch="#TS01" n="1"/>che<anchor xml:id="ebruck-02" synch="#TS02" n="2"/> <del type="repetition">che</del> è una cosa molto diversa, molto lontana. Perchè i paesi moderati arabi stanno zitti, l'<placeName>Europa</placeName> 
+                    E' cominciato <persName ref="TEI-ListPers.xml#AH">Hitler</persName> anche così, voglio dire, non è <anchor xml:id="ebruck-01" synch="#TS01" n="1"/>che<anchor xml:id="ebruck-02" synch="#TS02" n="2"/> <del type="repetition">che</del> è una cosa molto diversa, molto lontana. Perchè i paesi moderati arabi stanno zitti, l'<placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName> 
                     dice: <q>"Vabbè, così, è un pazzo".</q> Non è un pazzo, dicevano che <persName ref="TEI-ListPers.xml#AH">Hitler</persName> era anche un pazzo, eppure è riuscito a organizzare, a fare e a coinvolgere il proprio paese e <del type="riformulation">i</del> tutta
-                    <placeName>Europa</placeName> in quello che ha fatto. E quindi non è che riguarda soltanto lui quello che dice. Io <del type="reformulation">ri</del> io penso che oggi nel mondo globalizzato riguarda tutti noi quello che accade 
+                    <placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName> in quello che ha fatto. E quindi non è che riguarda soltanto lui quello che dice. Io <del type="reformulation">ri</del> io penso che oggi nel mondo globalizzato riguarda tutti noi quello che accade 
                     nel <del type="repetition">nel</del> nell'<placeName ref="TEI-ListPlaces.xml#IR"><country>Iran</country></placeName>, o quello che dice il <del type="repetition">il</del> Presidente iraniano è che tu devi sentire queste cose, ti <del type="repetition">ti</del>
                     <del type="repetition">ti</del> tu dici: <q>"Ma, che cominciamo da capo?"</q> Voglio dire che la paura, la <del type="repetition">la</del> le <del type="repetition">la</del> tragedia è che tu hai paura dell'umanità.<pause type="short"/> 
                     Che <del type="truncation">n</del> <del type="repetition">che</del> hai questa impressione che tutto sommato, questo <emph>immenso</emph> prezzo che è stato pagato, questo lutto eterno, questo 
@@ -1085,7 +1085,7 @@
                         <corr>colpiscono.</corr>
                     </choice>
                     E' la stessa cosa. Non lo sanno, quindi io credo che all'inizio fino agli anni Sessanta <pause type="short"/> non hanno toccato quasi l'argomento. I tedeschi stessi. Con il film di <persName ref="TEI-ListPers.xml#RF">Fassbinder</persName> <del type="riformulation">iniziano</del> cominciato
-                    proprio con il cinema, hanno cominciato a approfondire il loro passato. L'<placeName>Europa</placeName> ancora non è arrivata al suo passato.
+                    proprio con il cinema, hanno cominciato a approfondire il loro passato. L'<placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName> ancora non è arrivata al suo passato.
                 </u>
 
                 <u who="#AS"><anchor xml:id="annaseg-03" synch="#TS03" n="3"/><shift feature="voice" new="giggle"/>Assolutamente.<anchor xml:id="annaseg-04" synch="#TS04" n="4"/></u>
@@ -1160,7 +1160,7 @@
                         <sic>quanto</sic>
                         <corr>quando</corr>
                     </choice>
-                    gli scolari non vedono l'ora di andare a casa, di finire, di chiudere, di non parlare più della scuola. Quindi, volutamente, non so se è una cosa positiva o negativa, ancora questa macchia sulla coscienza dell'<placeName>Europa,</placeName> <del type="reformulation">della nostra</del> del nostro Novecento, io credo che ancora non è
+                    gli scolari non vedono l'ora di andare a casa, di finire, di chiudere, di non parlare più della scuola. Quindi, volutamente, non so se è una cosa positiva o negativa, ancora questa macchia sulla coscienza dell'<placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName>, <del type="reformulation">della nostra</del> del nostro Novecento, io credo che ancora non è
                     <del type="repetition">non è</del> sparito ed è niente, perchè in qualche maniera hanno <del type="repetition">hanno</del> <del type="reformulation">in</del> io ho chiesto questa mia amica tedesca proprio: <q type="spoken" who="#BRUCK" toWhom="#friend">"Ma tua madre che tiene la fotografia di <persName ref="TEI-ListPers.xml#AH">Hitler</persName> sul comodino <pause type="short"/> Come mai? Non ha capito niente?"</q> 
                     Lei 
                     <choice>
@@ -1208,7 +1208,7 @@
                         <sic>continua</sic>
                         <corr>continuano</corr>
                     </choice>
-                    a negare e se l'<placeName>Europa,</placeName> in qualche maniera continua a misitificare o <del type="repetition">o</del> continuano, come abbiamo parlato molte volte proprio con <persName ref="TEI-ListPers.xml#PL">Primo Levi</persName>, <del type="truncation">il re</del> con il revisionismo storico, 
+                    a negare e se l'<placeName ref="TEI-ListPlaces.xml#EU">Europa</placeName>, in qualche maniera continua a misitificare o <del type="repetition">o</del> continuano, come abbiamo parlato molte volte proprio con <persName ref="TEI-ListPers.xml#PL">Primo Levi</persName>, <del type="truncation">il re</del> con il revisionismo storico, 
                     e questo non assolutamente non risolve niente. Quindi per <del type="repetition">per</del> noi è una <del type="repetition">una</del> <vocal><desc>schiocca la lingua</desc></vocal> un'amarezza quotidiana, diciamo, ecco e quindi è una cosa molto, <del type="repetition">molto</del> dura e non c'è nella nostra vita, nella nostra esistenza, che siamo gli ultimi Mohicani<shift feature="voice" new="breathy"/> non.
                 </u>
 
