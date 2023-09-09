@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_vocidallinferno.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+
+<teiHeader>
+
+    <fileDesc>
+
+        <titleStmt>
+
+            <title>
+            </title>
+
+        </titleStmt>
+
+        <publicationStmt>
+
+            <p>
+            </p>
+
+        </publicationStmt>
+
+        <sourceDesc>
+
+                <listPlace>
+
+                    <head>Lista dei luoghi</head>
+
+                    <!-- Stati -->
+                    <place xml:id="CSR">
+                        <country>Cecoslovacchia</country>
+                    </place>
+
+                    <place xml:id="SK">
+                        <country>Slovacchia</country>
+                    </place>
+
+                    <place xml:id="DEU">
+                        <country>Germania</country>
+                    </place>
+
+                    <place xml:id="ITA">
+                        <country>Italia</country>
+                    </place>
+                    
+                    <place xml:id="PL">
+                        <country>Polonia</country>
+                    </place>
+
+                    <place xml:id="HU">
+                        <country>Ungheria</country>
+                    </place>
+
+                    <place xml:id="IL">
+                        <country>Israele</country>
+                    </place>
+
+                    <place xml:id="IR">
+                        <country>Iran</country>
+                    </place>
+
+                    <place xml:id="AR">
+                        <country>Argentina</country>
+                    </place>
+
+                    <place xml:id="NL">
+                        <country>Olanda</country>
+                    </place>
+
+                    <place xml:id="UA">
+                        <country>Ucraina</country>
+                    </place>
+
+                    <place xml:id="US">
+                        <country>Stati Uniti d'America</country>
+                    </place>
+
+                    <place xml:id="FR">
+                        <country>Francia</country>
+                    </place>
+
+                    <place xml:id="AT">
+                        <country>Austria</country>
+                    </place>
+
+
+
+                    <!-- Quartieri -->
+                    <place xml:id="WI">
+                        <placeName>Williamsburg</placeName>
+                        <location>
+                            <country>Stati Uniti d'America</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="SanSaba">
+                        <placeName>San Saba</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+                    
+
+                    <!-- Città e paesi-->
+                    <place xml:id="AU">
+                        <placeName>Auschwitz</placeName>
+                        <location>
+                            <country>Polonia</country>
+                            <geo>50.602671, 19.245927</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="DA">
+                        <placeName>Dachau</placeName>
+                        <location>
+                            <country>Germania</country>
+                            <geo>48.2629984, 11.4339022</geo>
+                        </location>
+                    </place>  
+
+                    <place xml:id="BB">
+                        <placeName>Bergen-Belsen</placeName>
+                        <location>
+                            <country>Germania</country>
+                        </location>
+                    </place> 
+
+                    <place xml:id="LA">
+                        <placeName>Landsberg</placeName>
+                        <location>
+                            <country>Germania</country>
+                            <geo>48.050783, 10.8791300</geo>
+                        </location>
+                    </place>  
+
+                    <place xml:id="KA">
+                        <placeName>Kaufering</placeName>
+                        <location>
+                            <country>Baviera</country>
+                            <geo>48.0912100, 10.8703515</geo>
+                        </location>
+                    </place>  
+
+                    <place xml:id="BI">
+                        <placeName>Birkenau</placeName>
+                        <location>
+                            <country>Polonia</country>
+                            <geo>50.672841, 19.199021</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="TE">
+                        <placeName>Terezin</placeName>
+                        <location>
+                            <country>Repubblica Ceca</country>
+                            <geo>50.5109, 14.1504</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="KR">
+                        <placeName>Krakovia</placeName>
+                        <location>
+                            <country>Polonia</country>
+                            <geo>50.057531, 19.980216</geo>
+                        </location>
+                    </place>
+                    
+
+                    <place xml:id="BO">
+                        <placeName>Bologna</placeName>
+                        <location>
+                            <country>Italia</country>
+                            <geo>44.506687, 11.333056</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="BS">
+                        <placeName>Brescia</placeName>
+                        <location>
+                            <country>Italia</country>
+                            <geo>45.541553, 10.211802</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="MO">
+                        <placeName>Monteverde</placeName>
+                        <location>
+                            <country>Italia</country>
+                            <geo>41.878948, 12.437186</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="SA">
+                        <placeName>Salò</placeName>
+                        <location>
+                            <country>Italia</country>
+                            <geo>45.608392, 10.510477</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="RA">
+                        <placeName>Ravensbruck</placeName>
+                        <location>
+                            <country>Germania</country>
+                            <geo>53.191280, 13.163472</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="RO">
+                        <placeName>Roma</placeName>
+                        <location>
+                            <country>Italia</country>
+                            <geo>41.891775, 12.486137</geo>
+                        </location>
+                    </place>  
+
+                    <place xml:id="PI">
+                        <placeName>Pittsburgh</placeName>
+                        <location>
+                            <country>Stati Uniti d'America</country>
+                            <geo>40.440625, -79.995886</geo>
+                        </location>
+                    </place>
+
+                    <place xml:id="KRI">
+                        <placeName>Kristianstadt</placeName>
+                        <location>
+                            <country>Svezia</country>
+                            <geo>50.56.0293936, 14.1566778</geo>
+                        </location>
+                    </place>
+
+                    <!--AGGIUGNI PLACES MANCANTI -->
+                    
+                </listPlace>
+        
+        </sourceDesc>
+
+    </fileDesc>
+
+</teiHeader>
+
+<text>
+    <body>
+        <p></p>
+    </body>
+</text>
+
+</TEI>

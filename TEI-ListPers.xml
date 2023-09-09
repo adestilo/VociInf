@@ -472,11 +472,85 @@
                                 </birth>
                         </person>
 
-                        <!--LIDIA RIDOLFI?-->
+                        <!--Lidia Rolfi-->
+                        <person xml:id="LR">     
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Lidia_Beccaria_Rolfi"/>
+                                <forename>Lidia</forename>
+                                <surname>Rolfi</surname>
+                            </persName>
+
+                            <sex>F</sex>
+
+                            <birth>
+                                <date when="1925-04-08" cert="high">8 aprile 1925</date>
+                                <placeName> <!--ref-->
+                                    <settlement type="municipality">Mondovì</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1966-01-17" cert="high">17 gennaio 1966</date>
+                                    <placeName>
+                                        <settlement type="municipality">Mondovì</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                            </death>
+                    </person>
 
                         <!--Hannah Arendt-->
+                        <person xml:id="HA">     
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Hannah_Arendt"/>
+                                <forename>Hannah</forename>
+                                <surname>Arendt</surname>
+                            </persName>
+
+                            <sex>F</sex>
+
+                            <birth>
+                                <date when="1906-10-14" cert="high">14 ottobre 1906</date>
+                                <placeName> <!--ref-->
+                                    <settlement type="town">Hannover</settlement>
+                                    <country key="DE">Germania</country>
+                                </placeName>
+                            </birth>
+
+                            <death>
+                                <date when="1975-12-04" cert="high">4 dicembre 1975</date>
+                                    <placeName>
+                                        <settlement type="town">New York</settlement>
+                                        <country key="US">Stati Uniti d'America</country>
+                                    </placeName>
+                            </death>
+                    </person>
 
                         <!--Giorgio Perlasca-->
+                        <person xml:id="GPe">     
+                            <persName>
+                                <ref target="https://it.wikipedia.org/wiki/Giorgio_Perlasca"/>
+                                <forename>Giorgio</forename>
+                                <surname>Perlasca</surname>
+                            </persName>
+
+                            <sex>M</sex>
+
+                            <birth>
+                                <date when="1910-01-31" cert="high">31 gennaio 1910</date>
+                                <placeName> <!--ref-->
+                                    <settlement type="town">Como</settlement>
+                                    <country key="IT">Italia</country>
+                                </placeName>
+                            </birth>
+                            <death>
+                                <date when="1992-08-15" cert="high">15 agosto 1992</date>
+                                    <placeName>
+                                        <settlement type="town">Padova</settlement>
+                                        <country key="IT">Italia</country>
+                                    </placeName>
+                            </death>
+                    </person>
 
                         
 
