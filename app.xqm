@@ -749,16 +749,18 @@ declare function app:cercawildcard($term as xs:string?, $testimonianzasist as xs
         return
             <table>{
             for $hit in doc($file-path)//tei:u[ft:query(., $query)]
-            order by ft:score($hit) descending
-            let $expanded := kwic:expand($hit)
+            for $h in $hit
+            let $s := <span>{string($h)}</span>
+            let $e := util:expand($h)
+            let $e := util:expand($h)
+            let $xslt := doc("/db/apps/proget/xslt/xsltbool.xsl")
+            let $newe := transform:transform($e, $xslt, ())
             return
-                for $match in $expanded//exist:match 
-                return
-                    <tr>
-                        <td class="table">
-                        {kwic:get-summary($expanded, $match, <config width="100"/>)}
-                        </td>
-                    </tr>
+                <tr>
+                    <td class="table">
+                    <span>{$newe}</span>
+                    </td>
+                </tr>
                 }</table>
     else
         for $xml in collection("/db/apps/proget/xml")/*
@@ -1070,16 +1072,19 @@ declare function app:cercawildcardScritte($term as xs:string?, $testimonianzasis
     return
     <table>{
     for $hit in doc($file-path)//tei:p[ft:query(., $query)]
-    order by ft:score($hit) descending
-    let $expanded := kwic:expand($hit)
-    return
-        for $match in $expanded//exist:match 
-        return
-            <tr>
-                <td class="table">
-                {kwic:get-summary($expanded, $match, <config width="100"/>)}
-                </td>
-            </tr>}</table>
+    for $h in $hit
+            let $s := <span>{string($h)}</span>
+            let $e := util:expand($h)
+            let $e := util:expand($h)
+            let $xslt := doc("/db/apps/proget/xslt/xsltbool.xsl")
+            let $newe := transform:transform($e, $xslt, ())
+            return
+                <tr>
+                    <td class="table">
+                    <span>{$newe}</span>
+                    </td>
+                </tr>
+                }</table>
     else
         for $xml in collection("/db/apps/proget/xmlscritte")/*
             let $testimone := $xml//tei:person[@role = 'testimone']
