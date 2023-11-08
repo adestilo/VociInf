@@ -440,7 +440,7 @@ declare function app:risultatifinaliboolAll($file-path, $bool, $query){
     let $hits := doc($file-path)//tei:u[ft:query(., $query)]
     return
     <table>{(
-            <tr><th>{concat('utterances found: ',count($hits))}</th></tr>,
+            <tr><th>{concat('utterances trovate: ',count($hits))}</th></tr>,
             for $hit in $hits 
             order by ft:score($hit) descending
             let $id := $hit/@xml:id
@@ -700,7 +700,6 @@ declare %private function app:riswildcard( $nome-autore as xs:string?, $term2 as
         for $hit in doc($file-path)//tei:u[ft:query(., $query)]
             for $h in $hit
             let $s := <span>{string($h)}</span>
-            let $e := util:expand($h)
             let $e := util:expand($h)
             let $xslt := doc("/db/apps/proget/xslt/xsltbool.xsl")
             let $newe := transform:transform($e, $xslt, ())
@@ -1328,7 +1327,7 @@ declare function app:risultatifinaliboolScritteAll($file-path, $bool, $query){
     let $hits := doc($file-path)//tei:p[ft:query(., $query)]
     return
     <table>{(
-            <tr><th>{concat('utterances found: ',count($hits))}</th></tr>,
+            <tr><th>{concat('utterances trovate: ',count($hits))}</th></tr>,
             for $hit in $hits 
             order by ft:score($hit) descending
             let $id := $hit/@xml:id
