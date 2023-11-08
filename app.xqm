@@ -714,7 +714,7 @@ declare %private function app:riswildcard( $nome-autore as xs:string?, $term2 as
 
 (: funzione che stampa i bottoni-collapse :)
 declare %private function app:singleCardWildcard($nome-autore as xs:string?, $term as xs:string*, $iter as xs:string? ){
-        let $conta := count(app:cercawildcard($term, $iter)//tr)
+        let $conta := count(app:cercawildcard($term, $iter)//exist:match)
         return
         <div class="card">
             <div class="card-header" id="heading{$iter}">
@@ -773,7 +773,7 @@ declare function app:cercawildcard($term as xs:string?, $testimonianzasist as xs
 
 (: funzione che stampa i risultati della ricerca wildcard :)
 declare function app:wildcard($testimonianzasist as xs:string?, $term as xs:string?){
-    let $contaoccorrenze := count(app:cercawildcard($term, $testimonianzasist)//tr)
+    let $contaoccorrenze := count(app:cercawildcard($term, $testimonianzasist)//exist:match)
     return
         if($contaoccorrenze >= 0)
         then 
@@ -816,7 +816,7 @@ declare %private function app:risfuzzy( $nome-autore as xs:string?, $term2 as xs
 
 (: funzione che stampa i bottoni-collapse :)
 declare %private function app:singleCardFuzzy($nome-autore as xs:string?, $term as xs:string*, $iter as xs:string? ){
-    let $conta := count(app:fuzzy($term, $iter)//tr)
+    let $conta := count(app:fuzzy($term, $iter)//exist:match)
     return
         <div class="card">
             <div class="card-header" id="heading{$iter}">
@@ -855,16 +855,18 @@ declare function app:fuzzy($term as xs:string?, $testimonianzasist as xs:string?
     return
         <table>{
         for $hit in doc($file-path)//tei:u[ft:query(., $query)]
-        order by ft:score($hit) descending
-        let $expanded := kwic:expand($hit)
-        return
-            for $match in $expanded//exist:match 
+        for $h in $hit
+            let $s := <span>{string($h)}</span>
+            let $e := util:expand($h)
+            let $e := util:expand($h)
+            let $xslt := doc("/db/apps/proget/xslt/xsltbool.xsl")
+            let $newe := transform:transform($e, $xslt, ())
             return
-            <tr>
-                <td class="table">
-                {kwic:get-summary($expanded, $match, <config width="100"/>)}
-                </td>
-            </tr>
+                <tr>
+                    <td class="table">
+                    <span>{$newe}</span>
+                    </td>
+                </tr>
         }</table>
     else
         for $xml in collection("/db/apps/proget/xml")/*
@@ -878,7 +880,7 @@ declare function app:fuzzy($term as xs:string?, $testimonianzasist as xs:string?
 
 (: funzione che stampa i risultati della ricerca fuzzy :)
 declare function app:ricercafuzzy($testimonianzasist as xs:string?, $term as xs:string?){
-    let $conta := count(app:fuzzy($term, $testimonianzasist)//tr)
+    let $conta := count(app:fuzzy($term, $testimonianzasist)//exist:match)
     return
     if($conta >= 0)
     then 
@@ -921,7 +923,7 @@ declare %private function app:risesatta( $nome-autore as xs:string?, $term2 as x
 
 (: funzione che stampa i bottoni-collapse :)
 declare %private function app:singleCardEsatta($nome-autore as xs:string?, $term as xs:string*, $iter as xs:string? ){
-        let $conta := count(app:esatta($term, $iter)//tr)
+        let $conta := count(app:esatta($term, $iter)//exist:match)
         return
         <div class="card">
             <div class="card-header" id="heading{$iter}">
@@ -959,14 +961,16 @@ declare function app:esatta($term as xs:string?, $testimonianzasist as xs:string
             return
             <table>{
             for $hit in doc($file-path)//tei:u[ft:query(., $query)]
-            order by ft:score($hit) descending
-            let $expanded := kwic:expand($hit)
-            return
-                for $match in $expanded//exist:match 
+            for $h in $hit
+                let $s := <span>{string($h)}</span>
+                let $e := util:expand($h)
+                let $e := util:expand($h)
+                let $xslt := doc("/db/apps/proget/xslt/xsltbool.xsl")
+                let $newe := transform:transform($e, $xslt, ())
                 return
                 <tr>
                     <td class="table">
-                    {kwic:get-summary($expanded, $match, <config width="100"/>)}
+                    <span>{$newe}</span>
                     </td>
                 </tr>
             }</table>
@@ -981,7 +985,7 @@ declare function app:esatta($term as xs:string?, $testimonianzasist as xs:string
 
 (: funzione che stampa i risultati della ricerca esatta :)
 declare function app:ricercaesatta($testimonianzasist as xs:string?, $term as xs:string?){
-    let $contaoccorrenze := count(app:esatta($term, $testimonianzasist)//tr)
+    let $contaoccorrenze := count(app:esatta($term, $testimonianzasist)//exist:match)
     return
     if($contaoccorrenze > 0)
     then 
@@ -1034,7 +1038,7 @@ declare %private function app:riswildcardScritte( $nome-autore as xs:string?, $t
 };
 
 declare %private function app:singleCardWildcardScritte($nome-autore as xs:string?, $term as xs:string*, $iter as xs:string? ){
-        let $conta := count(app:cercawildcardScritte($term, $iter)//tr)
+        let $conta := count(app:cercawildcardScritte($term, $iter)//exist:match)
         return
         <div class="card">
             <div class="card-header" id="heading{$iter}">
@@ -1097,7 +1101,7 @@ declare function app:cercawildcardScritte($term as xs:string?, $testimonianzasis
 
 (: funzione che stampa i risultati della ricerca wildcard :)
 declare function app:wildcardScritte(  $testimonianzasist as xs:string?, $term as xs:string?){
-    let $contaoccorrenze := count(app:cercawildcardScritte($term, $testimonianzasist)//tr)
+    let $contaoccorrenze := count(app:cercawildcardScritte($term, $testimonianzasist)//exist:match)
     return
     if($contaoccorrenze >= 0)
     then 
@@ -1138,7 +1142,7 @@ declare %private function app:risfuzzyScritte( $nome-autore as xs:string?, $term
 
 
 declare %private function app:singleCardFuzzyScritte($nome-autore as xs:string?, $term as xs:string*, $iter as xs:string? ){
-        let $conta := count(app:fuzzyScritte($term, $iter)//tr)
+        let $conta := count(app:fuzzyScritte($term, $iter)//exist:match)
         return
         <div class="card">
             <div class="card-header" id="heading{$iter}">
@@ -1198,7 +1202,7 @@ declare function app:fuzzyScritte($term as xs:string?, $testimonianzasist as xs:
 
 (: funzione che stampa i risultati della ricerca fuzzy :)
 declare function app:ricercafuzzyScritte($testimonianzasist as xs:string?, $term as xs:string?){
-    let $conta := count(app:fuzzyScritte($term, $testimonianzasist)//tr)
+    let $conta := count(app:fuzzyScritte($term, $testimonianzasist)//exist:match)
     return
     if($conta >= 0)
     then 
@@ -1238,7 +1242,7 @@ declare %private function app:risesattaScritte( $nome-autore as xs:string?, $ter
 
 
 declare %private function app:singleCardEsattaScritte($nome-autore as xs:string?, $term as xs:string*, $iter as xs:string? ){
-        let $conta := count(app:esattaScritte($term, $iter)//tr)
+        let $conta := count(app:esattaScritte($term, $iter)//exist:match)
         return
         <div class="card">
             <div class="card-header" id="heading{$iter}">
@@ -1275,14 +1279,16 @@ declare function app:esattaScritte($term as xs:string?, $testimonianzasist as xs
             return
             <table>{
             for $hit in doc($file-path)//tei:p[ft:query(., $query)]
-            order by ft:score($hit) descending
-            let $expanded := kwic:expand($hit)
-            return
-                for $match in $expanded//exist:match 
+            for $h in $hit
+                let $s := <span>{string($h)}</span>
+                let $e := util:expand($h)
+                let $e := util:expand($h)
+                let $xslt := doc("/db/apps/proget/xslt/xsltbool.xsl")
+                let $newe := transform:transform($e, $xslt, ())
                 return
                 <tr>
                     <td class="table">
-                    {kwic:get-summary($expanded, $match, <config width="100"/>)}
+                    <span>{$newe}</span>
                     </td>
                 </tr>
             }</table>
@@ -1297,7 +1303,7 @@ declare function app:esattaScritte($term as xs:string?, $testimonianzasist as xs
 };
 
 declare function app:ricercaesattaScritte( $testimonianzasist as xs:string?, $term as xs:string?){
-    let $contaoccorrenze := count(app:esattaScritte($term, $testimonianzasist)//tr)
+    let $contaoccorrenze := count(app:esattaScritte($term, $testimonianzasist)//exist:match)
     return
     if($contaoccorrenze > 0)
     then 
@@ -1570,7 +1576,7 @@ declare function app:cercaboolScritte($testimonianzasist as xs:string?, $bool as
 
 
 (:  :declare function app:booleanaScritte($node as node(), $model as map(*), $testimonianzasist as xs:string?, $boolScritte as xs:string*){
-    let $contaoccorrenze := count(app:cercaboolScritte($boolScritte, $testimonianzasist)//tr)
+    let $contaoccorrenze := count(app:cercaboolScritte($boolScritte, $testimonianzasist)//exist:match)
     return
     if($contaoccorrenze >= 0)
     then 
